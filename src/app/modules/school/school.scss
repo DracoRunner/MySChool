@@ -1,0 +1,17 @@
+.card {
+  height: 400px;
+  width: 400px;
+  > .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h2 {
+      font-size: 40px;
+    }
+    > .btn-lg {
+      height: 9rem;
+      padding: 1.5rem;
+      font-size: 6rem;
+    }
+  }
+}
